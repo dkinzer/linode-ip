@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Gets the ip address of linode with maching label'
   spec.description   = %w[ Adds the linode-ip executable for getting ip address
                            of linode with matching label. ]
-  spec.homepage      = 'https://github.com/dkinzer/linode-ip.'
+  spec.homepage      = 'https://github.com/dkinzer/linode-ip'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the
@@ -42,5 +42,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.17'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'rubocop', '~> 0.79'
 end
