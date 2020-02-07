@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Gets the ip address of linode with maching label'
   spec.description   = %w[ Adds the linode-ip executable for getting ip address
-                           of linode with matching label. ]
+                           of linode with matching label. ].join(' ')
   spec.homepage      = 'https://github.com/dkinzer/linode-ip'
   spec.license       = 'MIT'
 
